@@ -14,7 +14,7 @@ end
 
 def literal_aoh
   array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
-  new_array = [array[0][1][2][3][4]]
+  new_array = [array[0],[1],[2],[3],[4]]
   new_array.sort()
   return new_array
     
