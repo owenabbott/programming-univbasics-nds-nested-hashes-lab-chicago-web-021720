@@ -13,7 +13,9 @@ def assembled_aoh
 end
 
 def literal_aoh
-  array = [DON_G[:name], DON_G[:occupation], JOELLE_VD[:name], JOELLE_VD[:occupation], PAT_M[:name], PAT_M[:occupation], KATE_G[:name], KATE_G[:occupation], BRUCE_G[:name], BRUCE_G[:occupation]]
+  array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  new_array = [array[0][1][2][3][4]]
+  
   return array
     
   return array
