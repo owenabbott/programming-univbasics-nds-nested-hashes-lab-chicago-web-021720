@@ -14,7 +14,7 @@ end
 
 def literal_aoh
   array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
-  new_array = [array[0][0][1],[1][0][1],[2][0][1],[3][0][1],[4][0][1]]
+  new_array = [array[0][:name][:occupation],[1][:name][:occupation],[2][:name][:occupation],[3][:name][:occupation],[4][:name][:occupation]]
   return new_array
     
   return array
