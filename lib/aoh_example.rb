@@ -16,7 +16,7 @@ def literal_aoh
   array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   new_array = [array[0][1][2][3][4]]
   
-  return array
+  return new_array
     
   return array
   # Using Array literal syntax only, build a nested array that uses the data in
